@@ -8,6 +8,7 @@ var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurre
 
 try
 {
+    var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
     var builder = WebApplication.CreateBuilder(args);
 
     // Add services to the container.
@@ -21,6 +22,17 @@ try
     builder.Services.AddSwaggerGen();
     builder.Logging.ClearProviders();
     builder.Host.UseNLog();
+
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy(name: MyAllowSpecificOrigins,
+                          policy =>
+                          {
+                              policy.WithOrigins("*")
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                          });
+    });
 
     var app = builder.Build();
 
@@ -41,6 +53,8 @@ try
     app.UseSwaggerUI();
 
     app.UseHttpsRedirection();
+
+    app.UseCors(MyAllowSpecificOrigins);
 
     app.UseAuthorization();
 
