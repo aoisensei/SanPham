@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="TkPfiDut8PnIxYIS86l5">
-    <mxGraphModel dx="1301" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,7 +325,7 @@
           <mxGeometry x="1203" y="1505" width="275" height="197.5" as="geometry" />
         </mxCell>
         <mxCell id="Amjki_OvwhGs_Y3Dibjc-116" value="Khách hàng:&amp;nbsp;VATCustomer&lt;br&gt;&lt;br&gt;Sản phẩm bị lock:&amp;nbsp;VCD_ItemLock&lt;br&gt;&amp;nbsp;&lt;br&gt;PO/SO lock:&amp;nbsp;VCD_DocumentPO_Lock&lt;br&gt;&amp;nbsp;&lt;br&gt;Master data:&amp;nbsp;MdataItems&lt;br&gt;&lt;br&gt;Thông tin Inv:&amp;nbsp;VCDInvoiceMaster - VCDInvoiceDetail - VCDInvoiceLOG&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1225" y="1215" width="250" height="157.5" as="geometry" />
+          <mxGeometry x="1245" y="1215" width="250" height="157.5" as="geometry" />
         </mxCell>
         <mxCell id="Amjki_OvwhGs_Y3Dibjc-117" value="Thông tin config sang VNPT:&amp;nbsp;VATWSConfig" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1500" width="150" height="77.5" as="geometry" />
