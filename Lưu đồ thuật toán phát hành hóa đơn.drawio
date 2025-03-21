@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="TkPfiDut8PnIxYIS86l5">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,6 +64,9 @@
         <mxCell id="Amjki_OvwhGs_Y3Dibjc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-22" target="Amjki_OvwhGs_Y3Dibjc-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-22" target="Amjki_OvwhGs_Y3Dibjc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Amjki_OvwhGs_Y3Dibjc-22" value="switch case" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="590" width="80" height="80" as="geometry" />
         </mxCell>
@@ -75,6 +78,68 @@
         </mxCell>
         <mxCell id="Amjki_OvwhGs_Y3Dibjc-29" value="Đồng bộ lại hóa đơn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="535" y="570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-30" value="Đồng bộ lại hóa đơn chưa đẩy dl qua vnpt" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="615" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-31" target="Amjki_OvwhGs_Y3Dibjc-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-31" value="AutoPublishInvoice" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="345" y="760" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-33" value="PublishInvoice" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-34" value="tự động phát hành hóa đơn" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="702.5" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-35" target="Amjki_OvwhGs_Y3Dibjc-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-35" target="Amjki_OvwhGs_Y3Dibjc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-35" target="Amjki_OvwhGs_Y3Dibjc-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-35" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-37" value="Đại lợi - bỏ" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="195" y="907.5" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-39" value="AutoPublishInvoice_Sunhouse" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="893.75" width="185" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-41" value="Tự động phát hành hóa đơn pháp nhân SH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="860" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-42" value="AutoPublishInvoice_Factory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="1070" width="185" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-44" value="Tự động phát hành hóa đơn nhà máy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1000" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-45" value="Chạy luồng phát hành hóa đơn dưới service DLSaleReport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1000" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-39" target="Amjki_OvwhGs_Y3Dibjc-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-47" value="Chạy luồng phát hành hóa đơn dưới service DLSaleReport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1250" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-48" value="Cấu hình mã khách nhận hóa đơn tự động" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1170" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-48" target="Amjki_OvwhGs_Y3Dibjc-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
