@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="TkPfiDut8PnIxYIS86l5">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-1" target="Amjki_OvwhGs_Y3Dibjc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-1" value="BotAutoPublish" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-2" value="Chạy theo Task Scheduler" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-4" target="Amjki_OvwhGs_Y3Dibjc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-4" value="Params:&lt;br&gt;- company:(DF) Sunhouse&lt;br&gt;- typeCompany: (DF) VP&lt;br&gt;- actionKey: (DF) PublishInvoice&lt;br&gt;- chanelcode: (DF) TMDT&lt;br&gt;- region: (DF) MB&lt;br&gt;- dateConfig&lt;br&gt;- orderERP" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="87.5" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-7" target="Amjki_OvwhGs_Y3Dibjc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-7" target="Amjki_OvwhGs_Y3Dibjc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-7" value="actionKey != StatusCQT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="270" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-9" value="SyncStatusCQT" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-12" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-13" value="Lấy trạng thái từ CQT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-14" value="Đồng bộ kết quả xuất hóa đơn từ CQT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-15" target="Amjki_OvwhGs_Y3Dibjc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-15" value="AutoActionInvoice" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="480" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-17" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="420" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-18" value="Tự động phát hành hóa đơn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="420" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-19" target="Amjki_OvwhGs_Y3Dibjc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-19" value="FAC_Aluba&#xa;FAC_KK&#xa;FAC_SHM&#xa;Sunhouse&#xa;SunhouseCNMN" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-20" value="List Company được tự động phát hành" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="400" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-22" target="Amjki_OvwhGs_Y3Dibjc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-22" value="switch case" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-25" value="RepublishInvoice" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="545" y="605" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-27" value="Republish" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="605" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-29" value="Đồng bộ lại hóa đơn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="570" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
