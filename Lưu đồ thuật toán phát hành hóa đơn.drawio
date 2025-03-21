@@ -350,7 +350,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Amjki_OvwhGs_Y3Dibjc-120" value="SO:&amp;nbsp;orkrg,&amp;nbsp;orsrg&lt;br&gt;DirectInv:&amp;nbsp;frkrg,&amp;nbsp;frsrg,&amp;nbsp;frhkrg,&amp;nbsp;frhsrg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1059.5" y="1260" width="103" height="77.5" as="geometry" />
+          <mxGeometry x="996.25" y="1290" width="190.5" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
