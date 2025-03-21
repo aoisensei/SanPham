@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="TkPfiDut8PnIxYIS86l5">
-    <mxGraphModel dx="1517" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,6 +259,87 @@
           <mxGeometry x="1550" y="520.0000000000005" as="geometry">
             <mxPoint x="1" y="41" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-92" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Software_as_a_Service.svg;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="1417" width="64" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-93" value="ERP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1148" y="1475" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-100" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.detected_software" vertex="1" parent="1">
+          <mxGeometry x="1368" y="1418.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-101" value="Kế toán" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1358" y="1475" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-105" target="Amjki_OvwhGs_Y3Dibjc-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-103" value="Bê nguyên Inv từ Kế toán đẩy sang thuế" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Amjki_OvwhGs_Y3Dibjc-102">
+          <mxGeometry x="0.0108" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1418" y="1464" as="targetPoint" />
+            <mxPoint x="1578" y="1464" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1478" y="1464" />
+              <mxPoint x="1478" y="1464" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-105" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="1583" y="1404.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-92" target="Amjki_OvwhGs_Y3Dibjc-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-107" value="Đọc dữ liệu SO&amp;nbsp;&lt;br&gt;và DirectInvoice từ ERP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Amjki_OvwhGs_Y3Dibjc-106">
+          <mxGeometry x="-0.2369" y="3" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Amjki_OvwhGs_Y3Dibjc-100" target="Amjki_OvwhGs_Y3Dibjc-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-109" value="Sau khi lưu hóa đơn&lt;br&gt;tạo xml đẩy về VNPT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Amjki_OvwhGs_Y3Dibjc-108">
+          <mxGeometry x="-0.5434" y="-1" relative="1" as="geometry">
+            <mxPoint x="38" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-110" value="VNPT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1592" y="1482.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-111" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1589.5" y="1255" width="65" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-112" value="Thuế" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1589.5" y="1215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-113" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ERP&lt;/h1&gt;&lt;p&gt;Chứa thông tin Sale Order, Direct Invoice.&lt;br&gt;&lt;br&gt;Có 2 stored quan trọng là danh sách SO và chi tiết từng SO.&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1381" width="168" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-115" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Accounting&lt;/h1&gt;&lt;p&gt;Lấy thông tin SO và DirectInv từ ERP làm cơ sở để xuất hóa đơn dựa vào các pháp nhân khác nhau: SH, SHCNMN, DL, Fac.&lt;br&gt;&lt;br&gt;Phiếu xuất hóa đơn bao gồm: thông tin SO, DirectInv từ ERP, thông tin VAT khách hàng, thông tin sản phẩm trên MasData&lt;br&gt;&amp;nbsp;&lt;br&gt;=&amp;gt; Thông tin hóa đơn là các field trong 2 bảng chính là InvoiceMaster và InvoiceDetail&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="1505" width="275" height="197.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-116" value="Khách hàng:&amp;nbsp;VATCustomer&lt;br&gt;&lt;br&gt;Sản phẩm bị lock:&amp;nbsp;VCD_ItemLock&lt;br&gt;&amp;nbsp;&lt;br&gt;PO/SO lock:&amp;nbsp;VCD_DocumentPO_Lock&lt;br&gt;&amp;nbsp;&lt;br&gt;Master data:&amp;nbsp;MdataItems&lt;br&gt;&lt;br&gt;Thông tin Inv:&amp;nbsp;VCDInvoiceMaster - VCDInvoiceDetail - VCDInvoiceLOG&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="1215" width="250" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-117" value="Thông tin config sang VNPT:&amp;nbsp;VATWSConfig" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="1500" width="150" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-118" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VNPT&lt;/h1&gt;&lt;p&gt;Nhận thông tin hóa đơn từ Kế toán và tự đẩy qua thuế.&lt;br&gt;&lt;br&gt;Sau đó lấy respone trả về Kế toán để đồng bộ.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1703" y="1415" width="168" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-119" value="Đồng bộ hóa đơn về KT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1493" y="1435.0000000000005" as="geometry">
+            <mxPoint x="1" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amjki_OvwhGs_Y3Dibjc-120" value="SO:&amp;nbsp;orkrg,&amp;nbsp;orsrg&lt;br&gt;DirectInv:&amp;nbsp;frkrg,&amp;nbsp;frsrg,&amp;nbsp;frhkrg,&amp;nbsp;frhsrg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1059.5" y="1270" width="103" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
