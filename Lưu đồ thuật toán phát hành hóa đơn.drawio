@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2525" y="370" width="515" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="7APrjy0TLGKe-ZyHTPsB-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2350" y="970" width="870" height="630" as="geometry" />
         </mxCell>
@@ -413,6 +416,33 @@
         </mxCell>
         <mxCell id="7APrjy0TLGKe-ZyHTPsB-52" value="Kênh theo từng loại VP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2380" y="990" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-53" value="Chỉ pháp nhân VP mới sử dụng channel code&lt;br&gt;&lt;br&gt;Pháp nhân Apex không sử dụng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="1030" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7APrjy0TLGKe-ZyHTPsB-54" target="7APrjy0TLGKe-ZyHTPsB-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7APrjy0TLGKe-ZyHTPsB-54" target="7APrjy0TLGKe-ZyHTPsB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-54" value="OrrderType" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-55" value="SO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="507.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-56" value="DirectInv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2855" y="507.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-58" value="Loại hóa đơn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="382" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-61" value="Hóa đơn trực tiếp chỉ có ở kênh ECOM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="580" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7APrjy0TLGKe-ZyHTPsB-62" value="Có ở tất cả các kênh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="580" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
