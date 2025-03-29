@@ -512,6 +512,9 @@
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-7" value="Tùy theo pháp nhân sẽ có giá trị các cột khi lấy info SO khác nhau" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1267" y="1060" width="380" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Jm0ArUQ_ln1RFyyg58ud-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Stored InfoSO&lt;/h1&gt;&lt;p&gt;- Thông tin về hóa đơn phát hành&lt;br&gt;&lt;br&gt;- Thông tin về khách hàng&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1077.5" y="1235" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
