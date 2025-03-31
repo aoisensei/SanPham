@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="TkPfiDut8PnIxYIS86l5">
-    <mxGraphModel dx="3348" dy="2644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1594" dy="1835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -496,28 +496,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-1" value="Ấn tạo hđ" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2260" y="-2.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="700" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Jm0ArUQ_ln1RFyyg58ud-2" target="Jm0ArUQ_ln1RFyyg58ud-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-2" value="Màn tạo hóa đơn" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2500" y="-2.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="940" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-4" value="Call api get info SO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2362.5" y="-10" width="130" height="30" as="geometry" />
+          <mxGeometry x="802.5" y="502.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-5" value="Lấy thông tin khách hàng, và SO call API phát hành" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2750" y="-2.5" width="240" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Jm0ArUQ_ln1RFyyg58ud-7" value="Tùy theo pháp nhân sẽ có giá trị các cột khi lấy info SO khác nhau" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2527" y="-42.5" width="380" height="30" as="geometry" />
+          <mxGeometry x="1265" y="510" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Stored InfoSO&lt;/h1&gt;&lt;p&gt;- Thông tin về hóa đơn phát hành&lt;br&gt;&lt;br&gt;- Thông tin về khách hàng&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2627" y="-208.75" width="180" height="120" as="geometry" />
+          <mxGeometry x="1067" y="303.75" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Jm0ArUQ_ln1RFyyg58ud-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Chia PN&lt;/h1&gt;&lt;p&gt;- Chia case theo pháp nhân&lt;/p&gt;&lt;p&gt;- Loại hóa đơn: SO, DirectIn, IU, SR, IAT&lt;/p&gt;&lt;p&gt;- Pháp nhân Apex là case riêng&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2325" y="-212.5" width="235" height="160" as="geometry" />
+          <mxGeometry x="765" y="300" width="235" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kyNbX-iHQpkQpjiUwP-o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyNbX-iHQpkQpjiUwP-o-1">
           <mxGeometry relative="1" as="geometry">
@@ -678,6 +675,12 @@
         </mxCell>
         <mxCell id="kyNbX-iHQpkQpjiUwP-o-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Phân case Pháp nhân và Kênh&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="725" y="-1070" width="570" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kyNbX-iHQpkQpjiUwP-o-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Luồng phát hành hóa đơn&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="130" width="465" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Jm0ArUQ_ln1RFyyg58ud-7" value="Tùy theo pháp nhân sẽ có giá trị&lt;br&gt;&amp;nbsp;các cột khi lấy info SO khác nhau" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1047" y="515" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
